@@ -7,7 +7,7 @@ def binarysearch(arr,l,r,x):
         elif arr[mid] < x:
             l = mid + 1
         else:
-            r = mid - 1
+            r = mid - 2
     return -1
 
 def bubblesort(arr):
